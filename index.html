@@ -10,20 +10,19 @@
 <body>
     <div class="full">
         <img class="backimg" src="image/netflix-poster-1024x576.jpg" alt="">
-       <div class="backform">
-            
+       <div class="backform">      
             <form action="forminput.html" class="form-java" method="get">
                 <label for="firstname">First Name </label>
-                <input type="text" name="firstname" placeholder="Your name"><br><br>
+                <input type="text" name="firstname" placeholder="Your name" id="firstname"><br><br>
                 <label for="lastname">Last Name </label>
-                <input type="text" name="lastname" placeholder="Your lastname"><br><br>
+                <input type="text" name="lastname" placeholder="Your lastname" id="lastname"><br><br>
                 <label for="age">Age</label>
-                <input type="number" name="age" placeholder="Your age"><br><br>
+                <input type="number" name="age" placeholder="Your age" id="age"><br><br>
                 <label for="mail">Email</label>
-                <input type="email" name="mail" placeholder="Your email"><br><br>
+                <input type="email" name="mail" placeholder="Your email" id="email"><br><br>
                 
                 <label for="country">Country</label>
-                <select name="country" id="">
+                <select name="country" id="country">
                     <option value="tr">Türkiye</option>
                     <option value="en">England</option>
                     <option value="fr">Françias</option>
@@ -31,15 +30,15 @@
                 <br><br><br>
                 
                 <label for="gender">Gender</label><br><br>
-                <input type="radio" name="gen">
-                <label for="female">Female</label><br>
-                <input type="radio" name="gen">
-                <label for="male">Male</label><br>
-                <input type="radio" name="gen">
-                <label for="other">Other</label>
+                <input type="radio" name="gen" id="female" value="female">
+                <label for="firstradio">Female</label><br>
+                <input type="radio" name="gen" id="male" value="male">
+                <label for="secondradio">Male</label><br>
+                <input type="radio" name="gen" id="other" value="other">
+                <label for="thirdradio">Other</label>
                 <br><br>
                 <label for="feedback">Feedback</label><br><br>
-                <textarea name="feed" rows="5" wrap="soft"></textarea>
+                <textarea name="feed" rows="5" wrap="soft" id="feedback"></textarea>
 
 
 
@@ -48,6 +47,9 @@
        </div>
 
     </div>
-    <script src="form.js"></script>
+    <script >
+
+
+    </script>
 </body>
 </html>
